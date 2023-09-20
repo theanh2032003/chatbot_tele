@@ -1,0 +1,6 @@
+[
+  {
+    "name": "city",
+    "pattern": "(\\bHà\\ Nội\\b|\\bVĩnh\\ Phúc\\b|\\bhà\\ nội\\b|\\bĐà\\ Nẵng\\b|\\bThành\\ phố\\ Hồ\\ Chí\\ Minh\\b|\\bĐà\\ Lạt\\b|\\bBình\\ Dương\\b|\\bSeoul\\b|\\bBangkok\\b|\\bBình\\ Dương\\b|\\bCà\\ Mau\\b|\\bHuế\\b)"
+  }
+]

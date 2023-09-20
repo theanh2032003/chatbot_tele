@@ -1,0 +1,226 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - chào
+    - xin chào
+    - chào bot
+    - có ai ở đó không
+    - tôi cần hỗ trợ
+    - Chào bạn
+    - Chào anh
+    - Chào chị
+    - Chào buổi sáng
+    - Có đó không
+    - Rãnh không
+    - Ê
+    - Hú
+    - chào em
+    - em ơi, cho anh hỏi
+    - bot ơi
+    - cho mình hỏi chút
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - g9
+    - good night
+    - bye bye
+    - tạm biệt
+    - Hẹn gặp lại
+    - Ngủ ngon
+    - Chúc ngủ ngon
+    - Nói chuyện sau nhé
+    - Tôi sẽ liên hệ sau
+    - tạm biệt em
+    - tạm biệt bot nhá
+    - Biến
+
+- intent: affirm
+  examples: |
+    - đúng
+    - đúng vậy
+    - indeed
+    - chắc chắn rồi
+    - nghe hay đấy
+    - chính xác
+
+- intent: deny
+  examples: |
+    - không
+    - đừng
+    - không bao giờ
+    - tôi không nghĩ vậy
+    - tôi không thích điều đó
+    - không thể nào
+    - đừng làm thế
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: ask_for_weather
+  examples: |
+    - thời tiết [Hà Nội](location) hôm nay
+    - hôm nay thời tiết [Hà Nội](location) như nào
+    - tôi muốn biết nhiệt độ [Hà Nội](location) hôm nay
+    - trời [Hà Nội](location) hôm nay thế nào
+    - nói cho tôi thời tiết [Hà Nội](location) hôm nay
+    - [Hà Nội](location)
+    - thời tiết [Hà Nội](location)
+    - hôm nay nhiệt độ ở [Hà Nộ](location) như nào
+    - hôm nay [Hà Nội](location) như này
+    - thời tiết ở [Hà Nội](location)
+    - trời hôm nay ở [Hà Nội](location)
+    - Thời tiết ở [Hà Nội](location) như thế nào?
+    - Mưa ở [Hà Nội](location) không?
+    - Nhiệt độ ở [Hà Nộ](location) là bao nhiêu?
+    - Có gió ở [Hà Nội](location) không?
+    - Trời nắng hay mưa ở [Hà Nội](location)?
+    - Thời tiết ở [Hà Nội](location) thế nào?
+    - Thời tiết ở [Hà Nội](location) ra sao?
+    - Trời có lạnh ở [Hà Nội](location) không?
+    - Thời tiết ở [Hà Nội](location) như thế nào?
+    - Có mưa ở [Hà Nội](location) không?
+    - Thời tiết ở [Hà Nội](location) như thế nào?
+    - Mưa ở [Hà Nội](location) không?
+    - Nhiệt độ ở [Hà Nội](location) là bao nhiêu?
+    - Có gió ở [Hà Nội](location) không?
+    - Trời nắng hay mưa ở [Hà Nội](location)?
+    - Thời tiết ở [Hà Nội](location) thế nào?
+    - Thời tiết ở [Hà Nội](location) ra sao?
+    - Trời có lạnh ở [Hà Nội](location) không?
+    - Thời tiết ở [Hà Nội](location) như thế nào?
+    - Có mưa ở [Hà Nội](location) không?
+    - Mưa ở [Hà Nội](location) không?
+    - Nhiệt độ ở [Hà Nội](location) là bao nhiêu?
+    - Có gió ở [Hà Nội](location) không?
+    - Thời tiết ở [Hà Nội](location) thế nào?
+    - Mưa ở [Hà Nội](location) không?
+    - Nhiệt độ ở [Hà Nội](location) là bao nhiêu?
+- lookup: location
+  examples: |
+    - Hà Nội
+    - Hà Giang
+    - Cao Bằng
+    - Bắc Kạn
+    - Tuyên Quang
+    - Lào Cai
+    - Điện Biên
+    - Lai Châu
+    - Sơn La
+    - Yên Bái
+    - Hoà Bình
+    - Thái Nguyên
+    - Lạng Sơn
+    - Quảng Ninh
+    - Bắc Giang
+    - Phú Thọ
+    - Vĩnh Phúc
+    - Bắc Ninh
+    - Hải Dương
+    - Hải Phòng
+    - Hưng Yên
+    - Thái Bình
+    - Hà Nam
+    - Nam Định
+    - Ninh Bình
+    - Thanh Hóa
+    - Nghệ An
+    - Hà Tĩnh
+    - Quảng Bình
+    - Quảng Trị
+    - Thừa Thiên Huế
+    - Đà Nẵng
+    - Quảng Nam
+    - Quảng Ngãi
+    - Bình Định
+    - Phú Yên
+    - Khánh Hòa
+    - Ninh Thuận
+    - Bình Thuận
+    - Kon Tum
+    - Gia Lai
+    - Đắk Lắk
+    - Đắk Nông
+    - Lâm Đồng
+    - Bình Phước
+    - Tây Ninh
+    - Bình Dương
+    - Đồng Nai
+    - Bà Rịa - Vũng Tàu
+    - TP. Hồ Chí Minh
+    - Long An
+    - Tiền Giang
+    - Bến Tre
+    - Trà Vinh
+    - Vĩnh Long
+    - Đồng Tháp 
+    - An Giang 
+    - Kiên Giang 
+    - Cần Thơ 
+    - Hậu Giang 
+    - Sóc Trăng 
+    - Bạc Liêu 
+    - Cà Mau
+    - Huế
+    - thành phố Hồ Chí Minh
+    - Seoul
+    - Bangkok
+    - Hồ Chí Minh
+- intent: search_video
+  examples: |
+    - Tìm kiếm video [Quên Anh Đi](video_name)
+    - Có video nào về [Quên Anh Đi](video_name) không?
+    - Tìm video hướng dẫn [Quên Anh Đi](video_name)
+    - Cho tôi xem video [Quên Anh Đi](video_name)
+    - Tìm clip [Quên Anh Đi](video_name)
+    - Tôi muốn xem một video về [Quên Anh Đi](video_name).
+    - Hãy tìm cho tôi một video vui về [Quên Anh Đi](video_name).
+    - Có video nào hay về [Quên Anh Đi](video_name) không?
+    - Tìm một video hướng dẫn về [Quên Anh Đi](video_name) cho tôi.
+    - Cho tôi xem một video [Quên Anh Đi](video_name) mới nhất.
+    - Tìm video về [Quên Anh Đi](video_name) ở đất nước này.
+    - Tôi muốn xem [Quên Anh Đi](video_name) cho trẻ em.
+    - Tìm video hài [Quên Anh Đi](video_name) xem đi.

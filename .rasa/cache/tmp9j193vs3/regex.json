@@ -1,0 +1,6 @@
+[
+  {
+    "name": "location",
+    "pattern": "(\\bHà\\ Nội\\b|\\bHà\\ Giang\\b|\\bCao\\ Bằng\\b|\\bBắc\\ Kạn\\b|\\bTuyên\\ Quang\\b|\\bLào\\ Cai\\b|\\bĐiện\\ Biên\\b|\\bLai\\ Châu\\b|\\bSơn\\ La\\b|\\bYên\\ Bái\\b|\\bHoà\\ Bình\\b|\\bThái\\ Nguyên\\b|\\bLạng\\ Sơn\\b|\\bQuảng\\ Ninh\\b|\\bBắc\\ Giang\\b|\\bPhú\\ Thọ\\b|\\bVĩnh\\ Phúc\\b|\\bBắc\\ Ninh\\b|\\bHải\\ Dương\\b|\\bHải\\ Phòng\\b|\\bHưng\\ Yên\\b|\\bThái\\ Bình\\b|\\bHà\\ Nam\\b|\\bNam\\ Định\\b|\\bNinh\\ Bình\\b|\\bThanh\\ Hóa\\b|\\bNghệ\\ An\\b|\\bHà\\ Tĩnh\\b|\\bQuảng\\ Bình\\b|\\bQuảng\\ Trị\\b|\\bThừa\\ Thiên\\ Huế\\b|\\bĐà\\ Nẵng\\b|\\bQuảng\\ Nam\\b|\\bQuảng\\ Ngãi\\b|\\bBình\\ Định\\b|\\bPhú\\ Yên\\b|\\bKhánh\\ Hòa\\b|\\bNinh\\ Thuận\\b|\\bBình\\ Thuận\\b|\\bKon\\ Tum\\b|\\bGia\\ Lai\\b|\\bĐắk\\ Lắk\\b|\\bĐắk\\ Nông\\b|\\bLâm\\ Đồng\\b|\\bBình\\ Phước\\b|\\bTây\\ Ninh\\b|\\bBình\\ Dương\\b|\\bĐồng\\ Nai\\b|\\bBà\\ Rịa\\ \\-\\ Vũng\\ Tàu\\b|\\bTP\\.\\ Hồ\\ Chí\\ Minh\\b|\\bLong\\ An\\b|\\bTiền\\ Giang\\b|\\bBến\\ Tre\\b|\\bTrà\\ Vinh\\b|\\bVĩnh\\ Long\\b|\\bĐồng\\ Tháp\\b|\\bAn\\ Giang\\b|\\bKiên\\ Giang\\b|\\bCần\\ Thơ\\b|\\bHậu\\ Giang\\b|\\bSóc\\ Trăng\\b|\\bBạc\\ Liêu\\b|\\bCà\\ Mau\\b|\\bHuế\\b|\\bthành\\ phố\\ Hồ\\ Chí\\ Minh\\b)"
+  }
+]
